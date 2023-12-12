@@ -76,7 +76,7 @@ let startButton;
 let isStarted = false;
 
 function setup() {
-    createCanvas(800, 600);
+    createCanvas(800, 800).parent('sketch-holder');
 
     traceCanvas = createGraphics(width, height);
     traceCanvas.background(220);
@@ -88,18 +88,18 @@ function setup() {
 
     // Create the sliders
     tags.push(createP("Set mass 1: ").position(width + 20, 0));
-    mass1Slider = createSlider(10, 100, 40, 1).position(width + 100, 19);
+    mass1Slider = createSlider(10, 100, 40, 1).position(width + 120, 7);
     tags.push(createP("Set rope length 1: ").position(width + 20, 40));
-    ropeLength1Slider = createSlider(100, 300, 200, 1).position(width + 140, 59);
+    ropeLength1Slider = createSlider(100, 300, 200, 1).position(width + 175, 45);
     tags.push(createP("Set angle 1: ").position(width + 20, 80));
-    angle1Slider = createSlider(-PI / 2, PI / 2, 0, 0.01).position(width + 100, 99);
+    angle1Slider = createSlider(-PI / 2, PI / 2, 0, 0.01).position(width + 122, 86);
 
-    tags.push(createP("Set mass 2: ").position(width + 300, 0));
-    mass2Slider = createSlider(10, 100, 50, 1).position(width + 380, 19);
-    tags.push(createP("Set rope length 2: ").position(width + 300, 40));
-    ropeLength2Slider = createSlider(100, 300, 200, 1).position(width + 420, 59);
-    tags.push(createP("Set angle 2: ").position(width + 300, 80));
-    angle2Slider = createSlider(-PI / 2, PI / 2, 0, 0.01).position(width + 380, 99);
+    tags.push(createP("Set mass 2: ").position(width + 320, 0));
+    mass2Slider = createSlider(10, 100, 40, 1).position(width + 420, 7);
+    tags.push(createP("Set rope length 2: ").position(width + 320, 40));
+    ropeLength2Slider = createSlider(100, 300, 200, 1).position(width + 475, 45);
+    tags.push(createP("Set angle 2: ").position(width + 320, 80));
+    angle2Slider = createSlider(-PI / 2, PI / 2, 0, 0.01).position(width + 422, 86);
     // Create the start button
     startButton = createButton("Start").position(width + 20, 130);
     startButton.mousePressed(() => {
@@ -138,6 +138,17 @@ function setup() {
             startButton.html("Start");
         }
     });
+
+    // Move the sliders and the button into the sketch-holder div
+    mass1Slider.parent('sketch-holder');
+    ropeLength1Slider.parent('sketch-holder');
+    angle1Slider.parent('sketch-holder');
+    mass2Slider.parent('sketch-holder');
+    ropeLength2Slider.parent('sketch-holder');
+    angle2Slider.parent('sketch-holder');
+    tags.forEach(tag => tag.parent('sketch-holder'));
+    startButton.parent('sketch-holder');
+
 }
 
 function draw() {

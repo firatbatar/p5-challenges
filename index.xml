@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>p5.js Challenges</title>
+    <link>http://firatbatar.com/p5-challenges/</link>
+    <description>Recent content on p5.js Challenges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://firatbatar.com/p5-challenges/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Double Pendulum</title>
+      <link>http://firatbatar.com/p5-challenges/challenge/double-pendulum/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://firatbatar.com/p5-challenges/challenge/double-pendulum/</guid>
+      <description>A double pendulum!</description>
+    </item>
+  </channel>
+</rss>
