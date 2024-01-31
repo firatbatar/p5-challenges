@@ -1,0 +1,28 @@
+baseURL = 'http://firatbatar.com/p5-challenges'
+languageCode = 'en-us'
+title = 'Fırat Batar'
+publishDir = '..'
+
+disableKinds = ['taxonomy', 'term']
+
+[params]
+    github = 'https://github.com/firatbatar'
+    linkedin = 'https://www.linkedin.com/in/firatbatar'
+    placeholderImage = 'images/placeholder600x400.png'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[menu]
+[[menu.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+[[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+[[menu.main]]
+    name = 'Challenges'
+    pageRef = '/challenge'
+    weight = 30

@@ -1,0 +1,29 @@
+{{ define "meta_tags" }}
+
+    <meta name="description" content="Fırat Batar's '{{ .Title }}' p5.js challenge">
+    <meta name="keywords" content="Fırat Batar, {{ .Params.keywords }}">
+    {{/*  Meta tags for Open Graph  */}}
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://firatbatar.com/p5-challenges/challenge/{{ .Title }}">
+    <meta property="og:site_name" content="firatbatar/p5-challenges"/>
+    <meta property="og:description" content="Fırat Batar's '{{ .Title }}' p5.js challenge.">
+
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container">
+    <h1 class="text-center pt-5">{{ .Title }}</h1>
+
+    {{/* Get the date of the project */}}
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+    <i class="fa-regular fa-calendar"></i>
+    <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
+    <br>
+
+    {{ .Content }}
+</div>
+    
+{{ end }}
