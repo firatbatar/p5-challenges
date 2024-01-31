@@ -8,3 +8,4 @@ I'll be posting the challenges to [this page](https://firatbatar.com/p5-challeng
 
 ## Challenges
 - [Double Pendulum](https://firatbatar.com/p5-challenges/challenge/double-pendulum) ([The Coding Train's video ](https://youtu.be/uWzPe_S-RVE?si=3FK4b-3gD-8_fLiP) on the topic)
+- [Sand Simulation](https://firatbatar.com/p5-challenges/challenge/sand) (Inspired from [The Coding Train's challenge](https://thecodingtrain.com/challenges/180-falling-sand))
