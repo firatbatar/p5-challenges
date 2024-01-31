@@ -6,14 +6,24 @@
     <description>Recent content in Challenges on Fırat Batar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://firatbatar.com/p5-challenges/challenge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jan 2024 16:58:16 +0300</lastBuildDate><atom:link href="http://firatbatar.com/p5-challenges/challenge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sand</title>
+      <link>http://firatbatar.com/p5-challenges/challenge/sand/</link>
+      <pubDate>Mon, 29 Jan 2024 16:58:16 +0300</pubDate>
+      
+      <guid>http://firatbatar.com/p5-challenges/challenge/sand/</guid>
+      <description>A sand simulation.</description>
+    </item>
+    
     <item>
       <title>Double Pendulum</title>
       <link>http://firatbatar.com/p5-challenges/challenge/double-pendulum/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      
       <guid>http://firatbatar.com/p5-challenges/challenge/double-pendulum/</guid>
       <description>A double pendulum!</description>
     </item>
+    
   </channel>
 </rss>

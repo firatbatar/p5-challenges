@@ -5,7 +5,6 @@
     <link>http://firatbatar.com/p5-challenges/about/</link>
     <description>Recent content in About on Fırat Batar</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="http://firatbatar.com/p5-challenges/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://firatbatar.com/p5-challenges/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
