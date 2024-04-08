@@ -12,6 +12,7 @@ I'll be posting the challenges to [this page](https://firatbatar.com/p5-challeng
 ## Challenges
 - [Double Pendulum](https://firatbatar.com/p5-challenges/challenge/double-pendulum)
 - [Sand Simulation](https://firatbatar.com/p5-challenges/challenge/sand)
+- [Recaman Sequence](https://firatbatar.com/p5-challenges/challenge/recaman-sequence)
 
 ## Contact
 My Website: [firatbatar.com](https://firatbatar.com)  

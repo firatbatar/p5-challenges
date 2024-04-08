@@ -1,9 +1,9 @@
 ---
-title: "Recaman Sequance"
+title: "Recaman Sequence"
 date: 2024-04-08T14:02:35+03:00
-coverImage: recaman-sequance.png
+coverImage: recaman-sequence.png
 summary: |
-    Recaman Sequance insipired by a [Numberphile video](https://www.youtube.com/watch?v=FGC5TdIiT9U) by Brady Haran, featuring Alex Bellos.
+    Recaman Sequence insipired by a [Numberphile video](https://www.youtube.com/watch?v=FGC5TdIiT9U) by Brady Haran, featuring Alex Bellos.
 ---
 
 <style>
