@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input {
+  margin-top: 10px;
+  display: block;
+}
