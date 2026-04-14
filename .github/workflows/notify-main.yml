@@ -1,0 +1,18 @@
+name: Notify main site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch rebuild to firatbatar.github.io
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.MAIN_SITE_DISPATCH_TOKEN }}
+          repository: firatbatar/firatbatar.github.io
+          event-type: p5-challenges-updated
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
